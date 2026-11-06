@@ -1,0 +1,15 @@
+<!-- Windows Sandbox config for a clean-machine test: double-click this file (Windows 10/11 Pro, "Windows Sandbox" feature on).
+     The dist folder appears on the sandbox desktop; run the Setup.exe there. Nothing persists after the sandbox closes.
+     The sandbox has no GPU for Ollama, so answers take longer than on a real machine. -->
+<Configuration>
+  <vGPU>Enable</vGPU>
+  <Networking>Enable</Networking>
+  <MemoryInMB>16384</MemoryInMB>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>F:\29 - YouTube AI Kanali\depo\ai-tools\01-chat-with-your-documents\dist</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\Desktop\dist</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+</Configuration>

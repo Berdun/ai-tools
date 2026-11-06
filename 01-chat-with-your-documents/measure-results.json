@@ -1,0 +1,867 @@
+{
+ "document": "handbook.pdf",
+ "chunks": 14,
+ "index_seconds": 2.3,
+ "top_score_in_document": [
+  0.54,
+  0.82
+ ],
+ "top_score_not_in_document": [
+  0.37,
+  0.61
+ ],
+ "setups": [
+  {
+   "setup": "no document: the plain chatbot",
+   "threshold": null,
+   "model": "llama3.1:8b",
+   "seconds": 11.2,
+   "per_question": 0.56,
+   "correct": 6,
+   "wrong_refusals": 0,
+   "fabricated": 10,
+   "model_calls": 20,
+   "rows": [
+    {
+     "q": "How many days of annual leave do I get in my first five years?",
+     "answer": "According to our company's policy, you're entitled to 20 days of annual leave per year for the first 5 years of service. So, that's a total of 100 days.",
+     "top_score": 0.74,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "What are the core hours?",
+     "answer": "Core hours at Nova Software are 10am-4pm, Monday through Thursday.",
+     "top_score": 0.54,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How many days a week can I work from home?",
+     "answer": "According to our company's flexible work policy, you're eligible to work from home 2-3 days a week. Please check with your manager to confirm their approval and discuss any specific requirements or deadlines for your role.",
+     "top_score": 0.6,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How much is the home office allowance?",
+     "answer": "The home office allowance is $25 per day, up to 5 days per week.",
+     "top_score": 0.73,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "What is the yearly training budget?",
+     "answer": "The yearly training budget for Nova Software is $250,000. This includes online courses, workshops, and conferences to support employee development and skill enhancement.",
+     "top_score": 0.71,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How many days of leave do I get when I get married?",
+     "answer": "According to our company policy, you're entitled to 5 days of paid marriage leave. Please submit your request through the HR portal and provide proof of marriage.",
+     "top_score": 0.7,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "For how many days of illness do I need a doctor's note?",
+     "answer": "According to our company policy, you'll need a doctor's note for any absence exceeding 3 consecutive working days.",
+     "top_score": 0.74,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How much is the meal card topped up on office days?",
+     "answer": "The meal card is topped up with $20 on all office days, Monday to Friday.",
+     "top_score": 0.82,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How often is the laptop replaced?",
+     "answer": "Laptops are typically replaced every 3-4 years as part of our standard hardware refresh cycle to ensure employees have up-to-date devices and to maintain company security standards.",
+     "top_score": 0.65,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "Within how many days must I upload an invoice to get an expense refund?",
+     "answer": "According to our company policy, you need to upload your invoice within 30 days from the date of purchase to be eligible for an expense refund.",
+     "top_score": 0.75,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "On which day of the month are salaries paid?",
+     "answer": "Salaries at Nova Software are typically paid on the 15th of each month.",
+     "top_score": 0.59,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    },
+    {
+     "q": "What is the notice period when I resign?",
+     "answer": "According to our company's policies, the standard notice period for resignation is 2 weeks. However, please check your employment contract or speak with HR to confirm specific details regarding your situation.",
+     "top_score": 0.58,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    },
+    {
+     "q": "How long is the probation period for new employees?",
+     "answer": "The standard probation period at Nova Software is 6 months. During this time, your performance will be closely monitored and evaluated to determine if you're a good fit for our team.",
+     "top_score": 0.54,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    },
+    {
+     "q": "How many days of maternity leave does a new mother get?",
+     "answer": "Nova Software offers 12 weeks (84 days) of paid maternity leave, as per our company policy. This includes both prenatal and postnatal care.",
+     "top_score": 0.61,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    },
+    {
+     "q": "Is there a dress code in the office?",
+     "answer": "Yes, we have a casual business attire policy. Employees are encouraged to dress professionally but comfortably. No jeans or t-shirts with logos are allowed.",
+     "top_score": 0.56,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    },
+    {
+     "q": "How is overtime paid?",
+     "answer": "Overtime pay is 1.5 times your regular hourly rate, and it's calculated based on hours worked over 40 in a workweek.",
+     "top_score": 0.55,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    },
+    {
+     "q": "Does the company offer a pension plan?",
+     "answer": "Yes, Nova Software offers a 401(k) retirement savings plan with a company match. Details can be found on our intranet under \"Benefits\".",
+     "top_score": 0.46,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    },
+    {
+     "q": "Can I work remotely from another country?",
+     "answer": "Yes, we have a flexible remote work policy that allows eligible employees to work from abroad on a temporary basis. Please check with HR to confirm eligibility and discuss arrangements.",
+     "top_score": 0.58,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    },
+    {
+     "q": "How many public holidays are there in a year?",
+     "answer": "There are 10 public holidays in Australia, where Nova Software is located. However, please note that these may be subject to change and it's always best to check with HR for specific dates.",
+     "top_score": 0.5,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    },
+    {
+     "q": "What is the capital of France?",
+     "answer": "Paris.",
+     "top_score": 0.37,
+     "called": true,
+     "in_document": false,
+     "refused": false,
+     "correct": false,
+     "fabricated": true
+    }
+   ]
+  },
+  {
+   "setup": "first draft: no threshold, plain prompt",
+   "threshold": 0.0,
+   "model": "llama3.1:8b",
+   "seconds": 9.8,
+   "per_question": 0.49,
+   "correct": 10,
+   "wrong_refusals": 0,
+   "fabricated": 0,
+   "model_calls": 20,
+   "rows": [
+    {
+     "q": "How many days of annual leave do I get in my first five years?",
+     "answer": "18 working days.",
+     "top_score": 0.74,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "What are the core hours?",
+     "answer": "The core hours at Nova Software are from 10:00 to 16:00.",
+     "top_score": 0.54,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How many days a week can I work from home?",
+     "answer": "At most two days a week.",
+     "top_score": 0.6,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How much is the home office allowance?",
+     "answer": "$500 per year.",
+     "top_score": 0.73,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "What is the yearly training budget?",
+     "answer": "$1,500.",
+     "top_score": 0.71,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How many days of leave do I get when I get married?",
+     "answer": "5 days.",
+     "top_score": 0.7,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "For how many days of illness do I need a doctor's note?",
+     "answer": "Three or more days.",
+     "top_score": 0.74,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How much is the meal card topped up on office days?",
+     "answer": "$15 per day.",
+     "top_score": 0.82,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How often is the laptop replaced?",
+     "answer": "Every three years.",
+     "top_score": 0.65,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "Within how many days must I upload an invoice to get an expense refund?",
+     "answer": "Thirty days of the purchase.",
+     "top_score": 0.75,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "On which day of the month are salaries paid?",
+     "answer": "There is no mention of salary payment dates in any of the provided document chunks.",
+     "top_score": 0.59,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "What is the notice period when I resign?",
+     "answer": "There is no mention of a notice period in the provided document chunks. They only discuss leave policies (annual leave, special leave, sick leave).",
+     "top_score": 0.58,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How long is the probation period for new employees?",
+     "answer": "There is no mention of a probation period in any of the provided document chunks.",
+     "top_score": 0.54,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How many days of maternity leave does a new mother get?",
+     "answer": "There is no mention of maternity leave in the provided document chunks. However, it mentions that an employee who gets married receives five days, and a new father receives ten days.",
+     "top_score": 0.61,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "Is there a dress code in the office?",
+     "answer": "There is no mention of a dress code in any of the provided document chunks.",
+     "top_score": 0.56,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How is overtime paid?",
+     "answer": "There's no mention of overtime pay in the provided document chunks.",
+     "top_score": 0.55,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "Does the company offer a pension plan?",
+     "answer": "There's no mention of a pension plan in the provided document chunks.",
+     "top_score": 0.46,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "Can I work remotely from another country?",
+     "answer": "No information is provided about working remotely from another country. Only conferences abroad require approval and a summary presentation afterwards.",
+     "top_score": 0.58,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How many public holidays are there in a year?",
+     "answer": "There is no information about public holidays in the provided document chunks.",
+     "top_score": 0.5,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "What is the capital of France?",
+     "answer": "There's no mention of the capital of France in the provided document chunks.",
+     "top_score": 0.37,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    }
+   ]
+  },
+  {
+   "setup": "strict prompt, no threshold",
+   "threshold": 0.0,
+   "model": "llama3.1:8b",
+   "seconds": 8.4,
+   "per_question": 0.42,
+   "correct": 10,
+   "wrong_refusals": 0,
+   "fabricated": 0,
+   "model_calls": 20,
+   "rows": [
+    {
+     "q": "How many days of annual leave do I get in my first five years?",
+     "answer": "18 working days [1].",
+     "top_score": 0.74,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "What are the core hours?",
+     "answer": "10:00 to 16:00 [1]",
+     "top_score": 0.54,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How many days a week can I work from home?",
+     "answer": "At most two days a week [1].",
+     "top_score": 0.6,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How much is the home office allowance?",
+     "answer": "$500 a year [1]",
+     "top_score": 0.73,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "What is the yearly training budget?",
+     "answer": "1,500 dollars [1]",
+     "top_score": 0.71,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How many days of leave do I get when I get married?",
+     "answer": "Five days [1].",
+     "top_score": 0.7,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "For how many days of illness do I need a doctor's note?",
+     "answer": "Three or more [1].",
+     "top_score": 0.74,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How much is the meal card topped up on office days?",
+     "answer": "$15 a day [1]",
+     "top_score": 0.82,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How often is the laptop replaced?",
+     "answer": "Every three years [1].",
+     "top_score": 0.65,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "Within how many days must I upload an invoice to get an expense refund?",
+     "answer": "Thirty [1].",
+     "top_score": 0.75,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "On which day of the month are salaries paid?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.59,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "What is the notice period when I resign?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.58,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How long is the probation period for new employees?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.54,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How many days of maternity leave does a new mother get?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.61,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "Is there a dress code in the office?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.56,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How is overtime paid?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.55,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "Does the company offer a pension plan?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.46,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "Can I work remotely from another country?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.58,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How many public holidays are there in a year?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.5,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "What is the capital of France?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.37,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    }
+   ]
+  },
+  {
+   "setup": "strict prompt + threshold 0.50",
+   "threshold": 0.5,
+   "model": "llama3.1:8b",
+   "seconds": 7.6,
+   "per_question": 0.38,
+   "correct": 10,
+   "wrong_refusals": 0,
+   "fabricated": 0,
+   "model_calls": 17,
+   "rows": [
+    {
+     "q": "How many days of annual leave do I get in my first five years?",
+     "answer": "18 working days [1].",
+     "top_score": 0.74,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "What are the core hours?",
+     "answer": "10:00 to 16:00 [1]",
+     "top_score": 0.54,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How many days a week can I work from home?",
+     "answer": "At most two days a week [1].",
+     "top_score": 0.6,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How much is the home office allowance?",
+     "answer": "$500 a year [1]",
+     "top_score": 0.73,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "What is the yearly training budget?",
+     "answer": "$1,500 [1]",
+     "top_score": 0.71,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How many days of leave do I get when I get married?",
+     "answer": "Five days [1].",
+     "top_score": 0.7,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "For how many days of illness do I need a doctor's note?",
+     "answer": "Three or more [1].",
+     "top_score": 0.74,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How much is the meal card topped up on office days?",
+     "answer": "$15 a day [1]",
+     "top_score": 0.82,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "How often is the laptop replaced?",
+     "answer": "Every three years [1].",
+     "top_score": 0.65,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "Within how many days must I upload an invoice to get an expense refund?",
+     "answer": "Thirty [1].",
+     "top_score": 0.75,
+     "called": true,
+     "in_document": true,
+     "refused": false,
+     "correct": true,
+     "fabricated": false
+    },
+    {
+     "q": "On which day of the month are salaries paid?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.59,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "What is the notice period when I resign?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.58,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How long is the probation period for new employees?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.54,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How many days of maternity leave does a new mother get?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.61,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "Is there a dress code in the office?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.56,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How is overtime paid?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.55,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "Does the company offer a pension plan?",
+     "answer": "I couldn't find anything about this in the document.",
+     "top_score": 0.46,
+     "called": false,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "Can I work remotely from another country?",
+     "answer": "The document doesn't contain this information.",
+     "top_score": 0.58,
+     "called": true,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "How many public holidays are there in a year?",
+     "answer": "I couldn't find anything about this in the document.",
+     "top_score": 0.5,
+     "called": false,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    },
+    {
+     "q": "What is the capital of France?",
+     "answer": "I couldn't find anything about this in the document.",
+     "top_score": 0.37,
+     "called": false,
+     "in_document": false,
+     "refused": true,
+     "correct": false,
+     "fabricated": false
+    }
+   ]
+  }
+ ]
+}

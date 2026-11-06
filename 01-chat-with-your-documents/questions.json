@@ -1,0 +1,26 @@
+{
+ "in_document": [
+  {"q": "How many days of annual leave do I get in my first five years?", "expect": ["18", "eighteen"]},
+  {"q": "What are the core hours?", "expect": ["10:00", "10 a", "10am", "ten"]},
+  {"q": "How many days a week can I work from home?", "expect": ["two", "2"]},
+  {"q": "How much is the home office allowance?", "expect": ["500"]},
+  {"q": "What is the yearly training budget?", "expect": ["1,500", "1500", "1.500"]},
+  {"q": "How many days of leave do I get when I get married?", "expect": ["five", "5"]},
+  {"q": "For how many days of illness do I need a doctor's note?", "expect": ["three", "3"]},
+  {"q": "How much is the meal card topped up on office days?", "expect": ["15"]},
+  {"q": "How often is the laptop replaced?", "expect": ["three", "3"]},
+  {"q": "Within how many days must I upload an invoice to get an expense refund?", "expect": ["thirty", "30"]}
+ ],
+ "not_in_document": [
+  "On which day of the month are salaries paid?",
+  "What is the notice period when I resign?",
+  "How long is the probation period for new employees?",
+  "How many days of maternity leave does a new mother get?",
+  "Is there a dress code in the office?",
+  "How is overtime paid?",
+  "Does the company offer a pension plan?",
+  "Can I work remotely from another country?",
+  "How many public holidays are there in a year?",
+  "What is the capital of France?"
+ ]
+}
